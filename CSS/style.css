@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin-left: 0px;
+    text-align: justify;
+    width: 67%;
+}
+header {
+    
+    display: inline-block;
+    
+}
+.logo,.logoTxt, .media, .mailes {
+    margin: 30px 0px;
+    float: left;
+
+}
+.mailes{
+    margin-left: 15px;
+}
+.media{
+    margin-left:34em;
+}
+hr{
+    clear: both;
+    border-top: 8px double rgb(143, 143, 143);
+    margin-left: 0px;
+}
+
+main{
+    clear: both;
+
+}
+.MainTxt,.print {
+    margin: 30px 0px;
+    float: left;
+
+}
+.PizzaBody{
+    clear: both;
+    margin-left: 0px;
+    margin-bottom: 30px;
+
+}
+.PizzaBody img{
+    margin-bottom: 30px;
+}
+.print{
+    margin-left:37em;
+}
+article p{
+    text-indent:2%;
+}
+.Form{
+    clear: both;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+form{
+    margin: 30px 90px;
+    float: left;
+}
+#right{
+   margin-left: 50%;
+}
+#left,#right{
+    margin:5% 6%;
+}
+footer{
+    clear: both;
+    display: inline-block;
+}
+.Footer1 img,.Footer1 p,.Footer1 h2{
+    margin: 30px 0px;
+    float: left;
+}
+.Footer1 p{
+    text-align: left;
+    width:50%;  
+}
+.Footer h2, .Footer p{
+    display: block;
+}
+.button{
+    background-color: rgb(209, 107, 107);
+    color: white;
+}

@@ -10,13 +10,17 @@
 </head>
 <body>
     <header>
-        <nav>
+       <!-- <nav>-->
+           <section>
         <div class="logo">
             <img src="img/logo.png" alt="logo" class="Logo">
-        <h2>
+        </div>
+        <div class="logoTxt">
+        <h2 class="DTxt">
             Delicious
         </h2>
-        <p>THE BEST FOOD BLOG ON THE WEB</p>
+        <p class="DDesc">THE BEST FOOD BLOG ON THE WEB</p>
+    </div>
         </div>
         <div class="media">
             <img src="img/fb-icon.png" alt="facebook">
@@ -31,28 +35,42 @@
             <img src="img/rss-icon.png" alt="rss">
             <img src="img/mail-icon.png" alt="mail">
         </div>
-    </nav>
+    </section>
     <hr>
     </header>
+    
+   
     <main>
+        <section>
+            <div class="MainTxt">
         <h1>
             Chocolate Pizza
         </h1>
         <p>posted on 19 DEC 2013/ DESSERTS</p>
+    </div>
+        <div class="print">
+            <img src="img/print-icon.png" alt="print">
+            PRINT
+        </div>
+        
+    </section>
+    <section class="PizzaBody">
         <img src="img/choco-pizza.png" alt="choco-pizza">
         <article>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nihil rerum quidem nemo veritatis, architecto provident libero dicta ipsam tenetur hic, accusamus eius? Deleniti dignissimos a sint, reiciendis similique quis.
             </p>
+            <br>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique culpa suscipit recusandae laudantium atque, placeat sequi quidem facere temporibus sunt fugit? Autem incidunt eligendi libero dolorem modi doloribus labore possimus!
             </p>
+            <br>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe distinctio ratione, quis voluptatum tenetur quia libero minus assumenda modi excepturi eos quibusdam dicta voluptates at repellat alias, provident, fuga est.
             </p>
         </article>
-
-        <div>
+        </section>
+        <div class="Form" style="background-image: url(img/list-bg.png); width: 100%;">
         <form action="#" id="left">
             <input type="checkbox" id="check1" name="check1">
             <label for="checkbox1"> 1 1/2 cups milk</label>
@@ -99,16 +117,21 @@
     </main>
     <footer>
         <hr>
+        <div class="Footer1">
         <img src="img/van-pic.png" alt="van-pic">
-        <h3>Vanessa Stevenson</h3>
+        <h2>Vanessa Stevenson <br/></h2>
         <p>
-            Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am
+            Food enthusiast, photography fan. Add a pinch of raw foodism and that's
+            <br/> pretty much who I am.
         </p>
-        <button>SHARE RECIPE</button>
-
+        <p class="button">SHARE RECIPE</p>
+    </div>
+    <!--
+        <div class="Footer2">
         <img src="img/small-logo.png" alt="">
         <p>Delicious © 2013- All rights Reserved. Proudly published with Ghost.</p>
-        <p>shaima& noor</p>
+    </div>
+    -->
     </footer>
     
 </body>
