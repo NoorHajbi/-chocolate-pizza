@@ -1,96 +1,146 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300&family=Open+Sans&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     margin-left: 0px;
     text-align: justify;
     width: 67%;
 }
+
 header {
-    
     display: inline-block;
-    
 }
-.logo,.logoTxt, .media, .mailes {
+
+.logo,
+.logoTxt,
+.media,
+.mailes {
     margin: 30px 0px;
     float: left;
-
 }
-.mailes{
+
+.mailes {
     margin-left: 20px;
 }
-.media{
-    margin-left:21em;
+
+.media {
+    margin-left: 21em;
 }
-.mailes, .media{
+
+.mailes,
+.media {
     margin-top: 40px;
 }
-hr{
+
+hr {
     clear: both;
-    border-top: 8px double rgb(143, 143, 143);
+    border-top: 0px double rgb(143, 143, 143);
     margin-left: 0px;
+    background-image: url('../img/hr-pic.png');
+    height: 16px;
 }
 
-main{
+main {
     clear: both;
-
 }
-.MainTxt,.print {
+
+.MainTxt,
+.print {
     margin: 30px 0px;
     float: left;
-
 }
-.PizzaBody{
+
+.PizzaBody {
     clear: both;
     margin-left: 0px;
     margin-bottom: 30px;
-
 }
-.PizzaBody img{
+
+.PizzaBody img {
     margin-bottom: 30px;
 }
-.print{
-    margin-left:37em;
+
+.print {
+    margin-left: 37em;
 }
-article p{
-    text-indent:2%;
+
+article p {
+    text-indent: 2%;
 }
-.Form{
+
+.Form {
     clear: both;
     display: inline-block;
     margin-bottom: 30px;
 }
-form{
+
+form {
     margin: 30px 90px;
     float: left;
 }
-#right{
-   margin-left: 50%;
+
+#right {
+    margin-left: 50%;
 }
-#left,#right{
-    margin:5% 6%;
+
+#left,
+#right {
+    margin: 5% 6%;
 }
-footer{
+
+footer {
     clear: both;
     display: inline-block;
-    
-}
-.Footer1 img,.Footer1 p,.Footer1 h2,.button {
-   margin: 30px 0px;
-   float: left;
-
 }
 
-.button{
+.Footer1 img,
+.Footer1 p,
+.Footer1 h2,
+.button {
+    margin: 30px 0px;
+    float: left;
+}
+
+.DTxt {
+    font-family: 'Yellowtail', cursive;
+    font-size: 2em;
+}
+
+.DDesc {
+    font-family: 'Karma', serif;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.644);
+    font-size: 0.67em;
+}
+
+.h1Desc {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgba(0, 0, 0, 0.466);
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Archivo Narrow', sans-serif !important;
+    font-size: 2em !important;
+    font-weight: bolder !important;
+}
+
+.button {
     margin-top: -90px;
     left: 100px;
     background-color: rgb(209, 107, 107);
     color: white;
     padding: 15px;
-    margin-left:40em;
+    margin-left: 40em;
 }
-.Footer2{
+
+.Footer2 {
     clear: both;
     text-align: center;
 }
-
