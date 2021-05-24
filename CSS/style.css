@@ -11,7 +11,7 @@
         body {
             margin-left: 0px;
             text-align: justify;
-            width: 67%;
+            width: 85%;
         }
         
         header {
@@ -31,7 +31,7 @@
         }
         
         .media {
-            margin-left: 27.59em;
+            margin-left: 42.59em;
         }
         
         .mailes,
@@ -71,7 +71,7 @@
         }
         
         .print {
-            margin-left: 38em;
+            margin-left: 53.5em;
             margin-top: 65px;
             color: rgba(0, 0, 0, 0.466);
         }
@@ -160,7 +160,7 @@
             background-color: rgb(212, 101, 68);
             color: white;
             padding: 15px 30px;
-            margin-left: 48em;
+            margin-left: 63em;
         }
         
         .Footer2 {
